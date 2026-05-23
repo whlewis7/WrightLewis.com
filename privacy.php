@@ -1,13 +1,13 @@
 <?php
 /**
- * User Dashboard Contribute administration panel.
+ * User Dashboard Privacy administration panel.
  *
  * @package WordPress
  * @subpackage Administration
- * @since 6.6.0
+ * @since 4.9.0
  */
 
 /** Load WordPress Administration Bootstrap */
 require_once __DIR__ . '/admin.php';
 
-require ABSPATH . 'wp-admin/contribute.php';
+require ABSPATH . 'wp-admin/privacy.php';
